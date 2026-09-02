@@ -1,0 +1,67 @@
+payload:
+  # Яндекс
+  - PROCESS-NAME,YandexDisk.exe           # Яндекс.Диск
+  - PROCESS-NAME,YandexDisk2.exe          # Яндекс.Диск (альтернативное имя)
+  - PROCESS-NAME,YandexTelemost.exe       # Яндекс.Телемост
+  - PROCESS-NAME,punto.exe                # Punto Switcher
+  - PROCESS-NAME,Y.Music.exe              # Яндекс.Музыка (Microsoft Store)
+
+  # Российские браузеры на базе Chromium
+  - PROCESS-NAME,amigo.exe                # Mail.ru Амиго
+  - PROCESS-NAME,orbitum.exe              # Orbitum
+  - PROCESS-NAME,kometa.exe               # Комета
+  - PROCESS-NAME,Sputnik.exe              # Спутник
+  - PROCESS-NAME,Uran.exe                 # Uran
+
+  # Мессенджеры и почта
+  - PROCESS-NAME,vk.exe                   # VK (desktop)
+  - PROCESS-NAME,vkmessenger.exe          # VK Messenger
+  - PROCESS-NAME,vkteams.exe              # VK Teams
+  - PROCESS-NAME,magent.exe               # Mail.ru Агент
+  - PROCESS-NAME,ICQ.exe                  # ICQ
+  - PROCESS-NAME,qip.exe                  # QIP
+
+  # VK Play
+  - PROCESS-NAME,GameCenter.exe           # VK Play Game Center
+  - PROCESS-NAME,VKPlayLoader.exe         # VK Play
+  - PROCESS-NAME,VKPlayCloud.exe          # VK Play Cloud
+
+  # Облако и закачки
+  - PROCESS-NAME,Cloud.exe                # Облако Mail.ru
+  - PROCESS-NAME,dmaster.exe              # Download Master
+
+  # 1С:Предприятие
+  - PROCESS-NAME,1cestart.exe             # 1С:Предприятие
+  - PROCESS-NAME,1cv8.exe
+  - PROCESS-NAME,1cv8c.exe
+  - PROCESS-NAME,1cv8s.exe
+
+  # Офисные пакеты
+  - PROCESS-NAME,DesktopEditors.exe       # Р7-Офис
+  - PROCESS-NAME,Bitrix24.exe             # Bitrix24
+  - PROCESS-NAME,Bitrix.Desktop.exe
+  - PROCESS-NAME,bitrixdesktop.exe
+  - PROCESS-NAME,AIMP.exe                 # AIMP
+
+  # САПР, справочные и деловые системы
+  - PROCESS-NAME,KOMPAS.exe               # КОМПАС-3D
+  - PROCESS-NAME,nCad.exe                 # nanoCAD
+  - PROCESS-NAME,sbis3plugin.exe          # СБИС
+  - PROCESS-NAME,FineReader.exe           # ABBYY FineReader
+  - PROCESS-NAME,Lingvo.exe               # ABBYY Lingvo
+  - PROCESS-NAME,Radmin.exe               # Radmin
+
+  # ГИС и навигация
+  - PROCESS-NAME,2gis.exe                 # 2ГИС
+  - PROCESS-NAME,grym.exe                 # 2ГИС (альтернативное имя)
+
+  # Средства защиты, VPN и удалённого доступа
+  - PROCESS-NAME,avp.exe                  # Kaspersky
+  - PROCESS-NAME,kaspersky.exe
+  - PROCESS-NAME,spideragent.exe          # Dr.Web
+  - PROCESS-NAME,dwservice.exe
+  - PROCESS-NAME,outpost.exe              # Outpost Firewall
+  - PROCESS-NAME,IplirControl.exe         # ViPNet
+  - PROCESS-NAME,monitsrv.exe
+  - PROCESS-NAME,vipnetln.exe
+  - PROCESS-NAME,itcsrvup64.exe

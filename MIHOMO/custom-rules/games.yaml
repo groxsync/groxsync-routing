@@ -1,0 +1,390 @@
+payload:
+  # Unreal Engine games
+  - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
+
+  # Aimbeast
+  - PROCESS-NAME-REGEX,Aimbeast.* 
+
+  # Among Us
+  - PROCESS-NAME,Among Us.exe
+
+  # Apex Legends
+  - PROCESS-NAME,ApexLauncher.exe # Launcher
+  - PROCESS-NAME,r5apex_dx12.exe # Apex Legends (DX12)
+
+  # BattleBit Remastered
+  - PROCESS-NAME-REGEX,BattleBit.*
+
+  # Content Warning
+  - PROCESS-NAME,Content Warning.exe
+
+  # Counter-Strike 2
+  - PROCESS-NAME,cs2.exe
+
+  # Euro Truck Simulator 2 / American Trucks Simulator
+  - PROCESS-NAME,eurotrucks2.exe
+  - PROCESS-NAME,amtrucks.exe
+
+  # Party Animals
+  - PROCESS-NAME,PartyAnimals.exe
+
+  # PEAK
+  - PROCESS-NAME,PEAK.exe
+
+  # PUBG (PlayerUnknown's Battlegrounds)
+  - PROCESS-NAME,ExecPubg.exe # Launcher
+  - PROCESS-NAME-REGEX,TslGame.* # Game
+
+  # Minecraft
+  - PROCESS-NAME,javaw.exe # Minecraft (Java Edition)
+  - PROCESS-NAME,Minecraft.exe  # Minecraft (Bedrock Edition)
+
+  # FragPunk
+  - PROCESS-NAME,FragPunk.exe
+
+  # Dead by Daylight
+  - PROCESS-NAME-REGEX,DeadByDaylight.*
+
+  # Dota 2
+  - PROCESS-NAME,dota2.exe
+
+  # Deadlock
+  - PROCESS-NAME,deadlock.exe
+
+  # GTA V (online + other multiplayer solutions)
+  - PROCESS-NAME-REGEX,.*GTA5.* # GTA V / Online
+  - PROCESS-NAME,altv.exe # alt:V (Majestic RP)
+  - PROCESS-NAME,altv-webengine.exe # alt:V webengine (Majestic RP)
+  - PROCESS-NAME,FiveM.exe # FiveM
+  - PROCESS-NAME-REGEX,(?i).*ragemp.* # RageMP
+  - PROCESS-NAME-REGEX,(?i).*Majestic.* # Majestic RP
+  - PROCESS-NAME-REGEX,(?i).*Rockstar.* # Rockstar Games Launcher
+  - PROCESS-NAME-REGEX,(?i).*SocialClub.* # Rockstar Social Club
+
+  # Team Fortress 2
+  - PROCESS-NAME,tf.exe
+  - PROCESS-NAME,tf_win64.exe
+
+  # Half-Life 2
+  - PROCESS-NAME,hl2.exe
+
+  # Rainbow Six Siege
+  - PROCESS-NAME,RainbowSix.exe
+
+  # osu!
+  - PROCESS-NAME,osu!.exe
+
+  # Quaver
+  - PROCESS-NAME,Quaver.exe
+
+  # Valorant
+  - PROCESS-NAME,VALORANT-Win64-Shipping.exe
+
+  # Escape from Tarkov
+  - PROCESS-NAME,BsgLauncher.exe # EFT Launcher
+  - PROCESS-NAME,EscapeFromTarkov.exe # Escape From Tarkov 
+  - PROCESS-NAME,EscapeFromTarkovArena.exe # Escape From Tarkov - Arena
+
+  # Hunt: Showdown
+  - PROCESS-NAME,HuntGame.exe # Hunt: Showdown
+  
+  # Античиты (группировка)
+  - PROCESS-NAME,start_protected_game.exe # Apex Easy, THE FINALS  Anti-Cheat
+  - PROCESS-NAME,BattleBitEAC.exe # BattleBit EAC
+  - PROCESS-NAME,EasyAntiCheat.exe # Easy Anti-Cheat
+  - PROCESS-NAME,TslGame_BE.exe # PUBG BattleEye
+  - PROCESS-NAME,TslGame_ZK.exe # PUBG Anti-Cheat module
+  - PROCESS-NAME-REGEX,(?i).*Vanguard.* # Valorant Vanguard Anti-Cheat
+  - PROCESS-NAME-REGEX,(?i).*vanguard.* # Vanguard Anti-Cheat (Valorant, League of Legends)
+  - PROCESS-NAME,vgc.exe  # Vanguard Anti-Cheat (Valorant, League of Legends)
+  - PROCESS-NAME,vgm.exe # Vanguard Anti-Cheat (Valorant, League of Legends)
+  - PROCESS-NAME,denuvo-anti-cheat-update-service.exe # DENUVO Anticheat
+  - PROCESS-NAME,EscapeFromTarkovArena_BE.exe # Escape From Tarkov - Arena Battle Eye Anticheat
+  - PROCESS-NAME,EscapeFromTarkov_BE.exe # Escape From Tarkov Battle Eye Anticheat
+  - PROCESS-NAME,EasyAntiCheat_EOS.exe # Hunt: Showdown Easy Anti-Cheat
+  - PROCESS-NAME,faceitservice.exe # FaceIT AC
+  - PROCESS-NAME,faceitclient.exe  # FaceIT AC
+  - PROCESS-NAME,SGuard64.exe # Anti-Cheat Expert
+  - PROCESS-NAME,SGuardSvc64.exe # Anti-Cheat Expert
+  - PROCESS-NAME,SGuardUpdate64.exe # Anti-Cheat Expert
+  - PROCESS-NAME,ACE-Service64.exe # Anti-Cheat Expert
+
+  # HELLDIVERS 2
+  - PROCESS-NAME,helldivers2.exe
+  - PROCESS-NAME,crs-handler.exe # Crash reports
+
+  # THE FINALS
+  - PROCESS-NAME,Discovery.exe
+  - PROCESS-NAME,Discovery-d.exe
+
+  # Rust
+  - PROCESS-NAME-REGEX,(?i).*RustClient.*
+
+  # Arena Breakout: Infinite
+  - PROCESS-NAME,UAGame.exe
+
+  # Marvel Rivals
+  - PROCESS-NAME,MarvelRivals_Launcher.exe
+  - PROCESS-NAME,Marvel-Win64-Shipping.exe
+
+  # Overwatch 2
+  - PROCESS-NAME,Overwatch.exe
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,BlizzardBrowser.exe
+
+  # Phasmophobia
+  - PROCESS-NAME,Phasmophobia.exe
+
+  # HoYoverse
+  - PROCESS-NAME,GenshinImpact.exe
+  - PROCESS-NAME,ZenlessZoneZero.exe
+  - PROCESS-NAME,StarRail.exe
+  - PROCESS-NAME,BH3.exe
+  - PROCESS-NAME,ZFGameBrowser.exe # In-game webview
+  - PROCESS-NAME,HYUpdater.exe
+  - PROCESS-NAME,HYPHelper.exe
+  - PROCESS-NAME,HYP.exe
+
+  # Umamusume: Pretty Derby
+  - PROCESS-NAME,UmamusumePrettyDerby.exe
+
+  # Wuthering Waves
+  - PROCESS-NAME,Wuthering Waves.exe
+  - PROCESS-NAME,KRWebView.exe # In-game webview
+  - PROCESS-NAME,KRSDKExternal.exe    
+
+  # FaceIT website
+  - DOMAIN-SUFFIX,faceit.com
+  - DOMAIN-SUFFIX,faceit-cdn.net
+
+  # CyberShoke
+  - DOMAIN-SUFFIX,cybershoke.net
+
+  # MIMESIS
+  - PROCESS-NAME,MIMESIS.exe
+
+  # Игры, проверенные по веб-источникам
+
+  # Серия Call of Duty
+  - PROCESS-NAME,cod.exe
+  - PROCESS-NAME,cod23-cod.exe
+  - PROCESS-NAME,cod24-cod.exe
+
+  # Fortnite и Roblox
+  - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
+  - PROCESS-NAME,RobloxPlayerBeta.exe
+
+  # League of Legends
+  - PROCESS-NAME,League of Legends.exe
+  - PROCESS-NAME,LeagueClient.exe
+
+  # Apex Legends
+  - PROCESS-NAME,r5apex.exe
+
+  # Серия Battlefield
+  - PROCESS-NAME,bf2042.exe
+  - PROCESS-NAME,bf1.exe
+  - PROCESS-NAME,bfv.exe
+  - PROCESS-NAME,bf4.exe
+  - PROCESS-NAME,bf3.exe
+
+  # Path of Exile
+  - PROCESS-NAME,PathOfExile.exe
+  - PROCESS-NAME,PathOfExileSteam.exe
+  - PROCESS-NAME,PathOfExile_x64.exe
+  - PROCESS-NAME,PathOfExile_x64Steam.exe
+  - PROCESS-NAME,PathOfExile2.exe
+  - PROCESS-NAME,PathOfExile2_KG.exe
+
+  # Destiny 2 и Warframe
+  - PROCESS-NAME,destiny2.exe
+  - PROCESS-NAME,Warframe.exe
+  - PROCESS-NAME,Warframe.x64.exe
+
+  # Другие онлайн-игры
+  - PROCESS-NAME,eso64.exe
+  - PROCESS-NAME,Wow.exe
+  - PROCESS-NAME,WowClassic.exe
+  - PROCESS-NAME,Diablo IV.exe
+  - PROCESS-NAME,Diablo III64.exe
+  - PROCESS-NAME,FallGuys_client_game.exe
+  - PROCESS-NAME,starwarsbattlefrontii.exe
+  - PROCESS-NAME,ffxiv.exe
+  - PROCESS-NAME,ffxiv_dx11.exe
+  - PROCESS-NAME,SoTGame.exe
+  - PROCESS-NAME,SeaOfThieves.exe
+  - PROCESS-NAME,aces.exe
+  - PROCESS-NAME,WorldOfTanks.exe
+  - PROCESS-NAME,GZWClientSteam-Win64-Shipping.exe
+  - PROCESS-NAME,DeltaForceClient-Win64-Shipping.exe
+  - PROCESS-NAME,PioneerGame.exe
+  - PROCESS-NAME,PioneerGame-d.exe
+  - PROCESS-NAME,TheDivision2.exe
+
+  # Стратегии и приключения
+  - PROCESS-NAME,portal2.exe
+  - PROCESS-NAME,factorio.exe
+  - PROCESS-NAME,FactoryGame.exe
+  - PROCESS-NAME,FactoryGame-Win64-Shipping.exe
+  - PROCESS-NAME,Hades.exe
+  - PROCESS-NAME,Hades2.exe
+  - PROCESS-NAME,hollow_knight.exe
+  - PROCESS-NAME,HollowKnight.exe
+  - PROCESS-NAME,NMS.exe
+  - PROCESS-NAME,Subnautica.exe
+  - PROCESS-NAME,SubnauticaZero.exe
+  - PROCESS-NAME,ShooterGame.exe
+  - PROCESS-NAME,ArkAscended.exe
+  - PROCESS-NAME,Cities2.exe
+  - PROCESS-NAME,Civ6.exe
+  - PROCESS-NAME,CivilizationVI.exe
+  - PROCESS-NAME,Starfield.exe
+
+  # Кооперативные и survival-игры
+  - PROCESS-NAME,FSD.exe
+  - PROCESS-NAME,FSD-Win64-Shipping.exe
+  - PROCESS-NAME,ItTakesTwo.exe
+  - PROCESS-NAME,MonsterHunterWorld.exe
+  - PROCESS-NAME,MonsterHunterRise.exe
+  - PROCESS-NAME,Palworld.exe
+  - PROCESS-NAME,Palworld-Win64-Shipping.exe
+  - PROCESS-NAME,Lethal Company.exe
+  - PROCESS-NAME,LethalCompany.exe
+  - PROCESS-NAME,SquadGame.exe
+  - PROCESS-NAME,arma3.exe
+  - PROCESS-NAME,arma3_x64.exe
+  - PROCESS-NAME,DayZ_x64.exe
+  - PROCESS-NAME,Insurgency.exe
+  - PROCESS-NAME,InsurgencyClient-Win64-Shipping.exe
+  - PROCESS-NAME,KFGame.exe
+  - PROCESS-NAME,valheim.exe
+  - PROCESS-NAME,SonsOfTheForest.exe
+  - PROCESS-NAME,TheForest.exe
+  - PROCESS-NAME,TheForest32.exe
+  - PROCESS-NAME,TheForestVR.exe
+  - PROCESS-NAME,GreenHell.exe
+  - PROCESS-NAME,REPO.exe
+  - PROCESS-NAME,Maine-Win64-Shipping.exe
+  - PROCESS-NAME,VRising.exe
+  - PROCESS-NAME,CoreKeeper.exe
+  - PROCESS-NAME,ProjectZomboid64.exe
+  - PROCESS-NAME,ProjectZomboid.exe
+  - PROCESS-NAME,Zomboid.exe
+  - PROCESS-NAME,Enshrouded.exe
+  - PROCESS-NAME,Darktide.exe
+  - PROCESS-NAME,ReadyOrNot.exe
+  - PROCESS-NAME,ReadyOrNot-Win64-Shipping.exe
+  - PROCESS-NAME,GTFO.exe
+  - PROCESS-NAME,Back4Blood.exe
+  - PROCESS-NAME,Vermintide2.exe
+  - PROCESS-NAME,Chivalry2.exe
+  - PROCESS-NAME,Chivalry2-Win64-Shipping.exe
+  - PROCESS-NAME,Mordhau.exe
+  - PROCESS-NAME,ForHonor.exe
+  - PROCESS-NAME,HaloInfinite.exe
+  - PROCESS-NAME,Splitgate.exe
+  - PROCESS-NAME,Splitgate2.exe
+  - PROCESS-NAME,Naraka.exe
+  - PROCESS-NAME,Smite.exe
+  - PROCESS-NAME,Smite2.exe
+  - PROCESS-NAME,Brawlhalla.exe
+  - PROCESS-NAME,MultiVersus.exe
+
+  # Экшен и RPG
+  - PROCESS-NAME,Cyberpunk2077.exe
+  - PROCESS-NAME,eldenring.exe
+  - PROCESS-NAME,RDR2.exe
+  - PROCESS-NAME,bg3.exe
+  - PROCESS-NAME,bg3_dx11.exe
+  - PROCESS-NAME,b1-Win64-Shipping.exe
+  - PROCESS-NAME,b1.exe
+  - PROCESS-NAME,Borderlands3.exe
+  - PROCESS-NAME,Borderlands2.exe
+  - PROCESS-NAME,AtomicHeart.exe
+  - PROCESS-NAME,AtomicHeart-Win64-Shipping.exe
+  - PROCESS-NAME,Witcher3.exe
+  - PROCESS-NAME,DAOrigins.exe
+  - PROCESS-NAME,DragonAge2.exe
+  - PROCESS-NAME,DragonAgeInquisition.exe
+  - PROCESS-NAME,MassEffect.exe
+  - PROCESS-NAME,MassEffect2.exe
+  - PROCESS-NAME,MassEffect3.exe
+  - PROCESS-NAME,ACValhalla.exe
+  - PROCESS-NAME,ACOdyssey.exe
+  - PROCESS-NAME,ACOrigins.exe
+  - PROCESS-NAME,JustCause4.exe
+  - PROCESS-NAME,JustCause3.exe
+  - PROCESS-NAME,JustCause2.exe
+  - PROCESS-NAME,HITMAN.exe
+  - PROCESS-NAME,HITMAN2.exe
+  - PROCESS-NAME,HMA.exe
+  - PROCESS-NAME,DeusEx.exe
+  - PROCESS-NAME,DXMD.exe
+  - PROCESS-NAME,DXHRDC.exe
+  - PROCESS-NAME,Dishonored.exe
+  - PROCESS-NAME,Dishonored2.exe
+  - PROCESS-NAME,Bioshock.exe
+  - PROCESS-NAME,BioshockHD.exe
+  - PROCESS-NAME,Bioshock2.exe
+  - PROCESS-NAME,Bioshock2HD.exe
+  - PROCESS-NAME,BioShockInfinite.exe
+  - PROCESS-NAME,Dead Space.exe
+  - PROCESS-NAME,deadspace2.exe
+  - PROCESS-NAME,deadspace3.exe
+  - PROCESS-NAME,re2.exe
+  - PROCESS-NAME,re3.exe
+  - PROCESS-NAME,bio4.exe
+  - PROCESS-NAME,re4.exe
+  - PROCESS-NAME,re7.exe
+  - PROCESS-NAME,re8.exe
+  - PROCESS-NAME,NierAutomata.exe
+  - PROCESS-NAME,DarkSoulsRemastered.exe
+  - PROCESS-NAME,DarkSoulsII.exe
+  - PROCESS-NAME,DarkSoulsIII.exe
+  - PROCESS-NAME,Sekiro.exe
+  - PROCESS-NAME,SkyrimSE.exe
+  - PROCESS-NAME,Skyrim.exe
+  - PROCESS-NAME,Fallout4.exe
+  - PROCESS-NAME,Fallout76.exe
+  - PROCESS-NAME,armoredcore6.exe
+  - PROCESS-NAME,LOP.exe
+  - PROCESS-NAME,LOP-Win64-Shipping.exe
+  - PROCESS-NAME,LOTF2.exe
+  - PROCESS-NAME,LOTF2-Win64-Shipping.exe
+  - PROCESS-NAME,Remnant.exe
+  - PROCESS-NAME,Remnant-Win64-Shipping.exe
+  - PROCESS-NAME,Remnant2.exe
+  - PROCESS-NAME,Remnant2-Win64-Shipping.exe
+  - PROCESS-NAME,MaxPayne.exe
+  - PROCESS-NAME,maxpayne2.exe
+  - PROCESS-NAME,MaxPayne3.exe
+  - PROCESS-NAME,Left4Dead.exe
+  - PROCESS-NAME,Left4Dead2.exe
+  - PROCESS-NAME,Payday2.exe
+  - PROCESS-NAME,PAYDAY3Client.exe
+  - PROCESS-NAME,PAYDAY3Client-Win64-Shipping.exe
+  - PROCESS-NAME,VampireSurvivors.exe
+  - PROCESS-NAME,Risk of Rain 2.exe
+  - PROCESS-NAME,RiskofRain2.exe
+
+  # Серия Grand Theft Auto
+  - PROCESS-NAME,GTAIV.exe
+  - PROCESS-NAME,gta-sa.exe
+  - PROCESS-NAME,gta-vc.exe
+  - PROCESS-NAME,gta3.exe
+
+  # Файтинги
+  - PROCESS-NAME,StreetFighter6.exe
+  - PROCESS-NAME,SF6.exe
+  - PROCESS-NAME,TEKKEN8.exe
+  - PROCESS-NAME,Polaris-Win64-Shipping.exe
+  - PROCESS-NAME,MK1.exe
+  - PROCESS-NAME,MortalKombat1.exe
+  - PROCESS-NAME,MK12.exe
+
+  # Гонки
+  - PROCESS-NAME,AssettoCorsa.exe
+  - PROCESS-NAME,acs.exe
+  - PROCESS-NAME,BeamNG.drive.x64.exe
+  - PROCESS-NAME,ForzaHorizon4.exe
+  - PROCESS-NAME,ForzaHorizon5.exe
