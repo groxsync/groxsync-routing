@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://oshoragounoomet.begetcdn.cloud/routing/data/geoip.dat",
   "Geositeurl": "https://oshoragounoomet.begetcdn.cloud/routing/data/geosite.dat",
-  "LastUpdated": "1788422464",
+  "LastUpdated": "1788508665",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
