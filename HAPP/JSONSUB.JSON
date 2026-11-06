@@ -10,9 +10,9 @@
   "DomesticDNSType": "DoH",
   "DomesticDNSDomain": "https://77.88.8.8/dns-query",
   "DomesticDNSIP": "77.88.8.8",
-  "Geoipurl": "https://oshoragounoomet.begetcdn.cloud/routing/data/geoip.dat",
-  "Geositeurl": "https://oshoragounoomet.begetcdn.cloud/routing/data/geosite.dat",
-  "LastUpdated": "1793100536",
+  "Geoipurl": "https://storage.grox-sync.com/routing/data/geoip.dat",
+  "Geositeurl": "https://storage.grox-sync.com/routing/data/geosite.dat",
+  "LastUpdated": "1794003190",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
