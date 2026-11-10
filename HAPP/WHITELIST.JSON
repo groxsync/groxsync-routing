@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://storage.grox-sync.com/routing/data/geoip.dat",
   "Geositeurl": "https://storage.grox-sync.com/routing/data/geosite.dat",
-  "LastUpdated": "1794003190",
+  "LastUpdated": "1794335082",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
